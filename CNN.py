@@ -12,7 +12,7 @@ if device == 'cuda':
 # parameters
 learning_rate = 0.001
 training_epochs = 10000000
-batch_size = 100
+batch_size = 1000
 
 # MNIST dataset
 mnist_train = dsets.MNIST(root='MNIST_data/',
